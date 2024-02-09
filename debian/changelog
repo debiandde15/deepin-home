@@ -1,0 +1,25 @@
+deepin-home (1.0.13-1) unstable; urgency=medium
+
+  * update
+
+ -- Deepin Sysdev <sysdev@deepin.com>  Mon, 09 Jan 2023 15:16:59 +0800
+
+deepin-home (1.0.10) unstable; urgency=medium
+  
+  * fix: open the wrong link when click carousel
+  * feat: support high dpi
+
+ -- TagBuilder <tagbuilder@deepin.com>  Tue, 29 Dec 2022 12:16:59 +0800
+
+deepin-home (1.0.4) UNRELEASED; urgency=medium
+  
+  * fix: display in dark theme
+  * feat: change name of the desktop file
+
+ -- TagBuilder <tagbuilder@deepin.com>  Tue, 22 Nov 2022 16:50:11 +0800
+
+deepin-home (1.0.0) UNRELEASED; urgency=medium
+
+  * Initial release
+
+ -- TagBuilder <tagbuilder@deepin.com>  Fri, 09 Sep 2022 17:42:57 +0800

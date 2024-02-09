@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>index/Index.qml</file>
+        <file>index/Carousel.qml</file>
+        <file>index/Card1.qml</file>
+        <file>index/Card2.qml</file>
+        <file>index/Card3.qml</file>
+
+        <file>list/List.qml</file>
+        <file>list/Notify.qml</file>
+        <file>list/NotifyDetail.qml</file>
+        <file>list/Questionnaire.qml</file>
+        <file>list/NotFound.qml</file>
+        <file>article/Article.qml</file>
+        <file>api/API.qml</file>
+        <file>api/qmldir</file>
+        <file>widgets/Loading.qml</file>
+        <file>titlebar/MyTitleBar.qml</file>
+
+        <file>images/bbs.svg</file>
+        <file>images/bug.svg</file>
+        <file>images/demand.svg</file>
+        <file>images/contact.svg</file>
+        <file>images/internal.svg</file>
+        <file>images/404.svg</file>
+        <file>images/read.svg</file>
+        <file>images/avatar.svg</file>
+        <file>images/msg.svg</file>
+        <file>images/deepin-home.svg</file>
+        <file>images/q.webp</file>
+        <file alias="dsg/built-in-icons/deepin-home.dci">images/deepin-home.dci</file>
+    </qresource>
+</RCC>
