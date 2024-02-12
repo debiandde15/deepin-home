@@ -1,0 +1,35 @@
+Source: deepin-home
+Section: admin
+Priority: optional
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Build-Depends:
+ debhelper-compat (= 12),
+ cmake,
+ pkg-config,
+ qtbase5-dev,
+ qtdeclarative5-dev,
+ libdtkcommon-dev,
+ libdtkcore-dev,
+ libdtkgui-dev,
+ libdtkdeclarative-dev,
+ qttools5-dev-tools,
+ qml-module-qtquick-controls,
+ qml-module-qtquick-dialogs,
+ qml-module-qtquick-controls2,
+ qml-module-qtquick-layouts,
+ libssl-dev,
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: deepin-home
+Architecture: any
+Depends: 
+ ${shlibs:Depends}, 
+ ${misc:Depends},
+ qml-module-qtquick-controls,
+ qml-module-qtquick-dialogs,
+ qml-module-qtquick-controls2,
+ qml-module-qtquick-layouts,
+ inxi,
+Description: deepin home
+ quick login bbs, bug report.
